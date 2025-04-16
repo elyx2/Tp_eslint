@@ -1,1 +1,1 @@
-npx eslint .
+npx eslint . --max-warnings 0
