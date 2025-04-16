@@ -38,3 +38,26 @@ git push
 
 ✖ 2 problems (0 errors, 2 warnings)
 
+
+
+
+
+
+git commit -m "Code non conforme"
+
+  2:1  warning  Unexpected console statement                  no-console
+  5:1  warning  Unexpected console statement                  no-console
+  5:1  error    Expected indentation of 2 spaces but found 0  indent
+
+✖ 5 problems (1 error, 4 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+
+  npx eslint --fix .
+
+    2:1  warning  Unexpected console statement  no-console
+  5:3  warning  Unexpected console statement  no-console
+
+✖ 4 problems (0 errors, 4 warnings)
+
+git add .
+
